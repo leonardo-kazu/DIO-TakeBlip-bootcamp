@@ -1,0 +1,15 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+#quem-somos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgb(108, 116, 0);
+    color: white;
+}
+#parceiros{
+    background-color: wheat;
+}
+.margin{
+    padding-bottom: 20px;
+}
