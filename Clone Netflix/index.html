@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Início - Netflix</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    </head>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-black icone">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagens/netflix.png" alt="Netflix" height="50px" width="100px">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Séries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bombando</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Minha lista</a>
+                        </li>
+                    </ul>
+                    <form class="d=flex">
+                        <input type="search" class="form-control me-2 form-control-dark" placeholder="Pesquisar" aria-label="Search">
+                    </form>
+                </div>      
+            </div>
+        </nav>
+    </header>
+    <body>
+        <div class="container-fluid bg-dark image">
+            <h3 class="filmePrincipal text-white">HOUSE OF CARDS</h3>
+            <p class="text-white descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível. </p>
+            <button type="button" class=" btn btn-dark botao"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+            </svg> ASSISTIR AGORA
+        </button>
+            <button type="button" class="btn btn-dark botao"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </svg> MAIS INFORMAÇÕES
+        </button>
+        </div>
+        <div class="container-fluid bg-black carosel">
+
+            <div class="carrosel-filmes">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini1.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini3.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini4.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini5.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini6.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini7.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini8.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini9.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="Imagens/mini10.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,36 @@
+body{
+    font: 16px Arial, sans-serif;
+}
+.icone{
+    padding-left: 30px;
+    background-color: black;
+}
+.form-control-dark{
+    color:#fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+}
+.form-control-dark:focus{
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+.image {
+    background-image: url("Imagens/house\ of\ cards.jpg");
+    background-size: cover;
+    padding-bottom: 240.4;
+    padding-top: 70px;
+}
+.botao{
+    font-size: 14px;
+}
+.filmePrincipal{
+    padding-top: 400px;
+}
+.descricao{
+    width: 45%;
+}
+.carosel{
+    padding-top: 10px;
+}
