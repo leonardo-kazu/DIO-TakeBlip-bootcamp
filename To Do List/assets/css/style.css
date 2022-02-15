@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkslategray;
+    color: blanchedalmond;
+}
+
+button{
+    border: 1px solid black;
+    background-color: rgba(97, 234, 252, 0.603);
+    border-radius: 5px;
+
+}
+
+#tasks{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.item{
+    text-align: center;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: gray;
+}
