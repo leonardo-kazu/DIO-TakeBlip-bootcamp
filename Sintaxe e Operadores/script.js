@@ -1,4 +1,4 @@
-var num1, num2;
+let num1, num2;
 
 entraDados();
 apresentarDados(igualdade(),comparaDados());
