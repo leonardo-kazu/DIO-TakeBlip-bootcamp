@@ -6,3 +6,4 @@ Todos os projetos desenvolvidos a partir da Digital Innovation One
 - Clone Netflix - HTML5 e CSS3 (com Bootstrap) :three:
 - Contador - HTML5, CSS3 e JS (básico) :four:
 - To do List - HTML5, CSS3 e JS (básico) :five:
+- Sintaxe e Operadores (Atividade Prática) - JS (básico) :six:
