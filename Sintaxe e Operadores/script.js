@@ -13,7 +13,7 @@ function entraDados() {
 }
 
 function igualdade() {
-    return (num1 == num2) ? (true) : (false) ;
+    return (num1 === num2) ? (true) : (false) ;
 }
 function comparaDados() {
     let dez = "menor";

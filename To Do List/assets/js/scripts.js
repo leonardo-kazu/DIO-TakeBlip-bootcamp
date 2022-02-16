@@ -1,31 +1,31 @@
-const formulario = document.getElementById("task-form");
-const listaTarefas = document.getElementById("tasks");
+const FORMULARIO = document.getElementById("task-form");
+const LISTA_TAREFAS = document.getElementById("tasks");
 
 //document.getElementById("").addEventListener("submit", teste)
 
-formulario.onsubmit = function (e) {
+FORMULARIO.onsubmit = function (e) {
     e.preventDefault();
-    const inputField = document.getElementById("task-input");
-    addtask(inputField.value);
-    formulario.reset();
+    const INPUT_FIELD = document.getElementById("task-input");
+    addtask(INPUT_FIELD.value);
+    FORMULARIO.reset();
 };
 
 function addtask(descricao) {
-    const taskContainer = document.createElement("div");
-    const newTask = document.createElement("input");
-    const taskLabel = document.createElement("label");
-    const taskText = document.createTextNode(descricao);
+    const TASK_CONTAINER = document.createElement("div");
+    const NEW_TASK = document.createElement("input");
+    const TASK_LABEL = document.createElement("label");
+    const TASK_TEXT = document.createTextNode(descricao);
 
-    newTask.setAttribute("type", "checkbox");
-    newTask.setAttribute("id", descricao);
-    newTask.setAttribute("name", descricao);
+    NEW_TASK.setAttribute("type", "checkbox");
+    NEW_TASK.setAttribute("id", descricao);
+    NEW_TASK.setAttribute("name", descricao);
 
-    taskLabel.setAttribute("for", descricao);
-    taskLabel.appendChild(taskText);
+    TASK_LABEL.setAttribute("for", descricao);
+    TASK_LABEL.appendChild(TASK_TEXT);
 
-    taskContainer.classList.add("item");
-    taskContainer.appendChild(newTask);
-    taskContainer.appendChild(taskLabel);
+    TASK_CONTAINER.classList.add("item");
+    TASK_CONTAINER.appendChild(NEW_TASK);
+    TASK_CONTAINER.appendChild(TASK_LABEL);
     
-    listaTarefas.appendChild(taskContainer);
-};
+    LISTA_TAREFAS.appendChild(TASK_CONTAINER);
+}
