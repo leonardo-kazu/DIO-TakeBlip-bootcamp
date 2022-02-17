@@ -7,3 +7,4 @@ Todos os projetos desenvolvidos a partir da Digital Innovation One
 - Contador - HTML5, CSS3 e JS (básico) :four:
 - To do List - HTML5, CSS3 e JS (básico) :five:
 - Sintaxe e Operadores (Atividade Prática) - JS (básico) :six:
+- Váriaveis e Tipos (Atividade Prática) - JS (básico) :seven:
