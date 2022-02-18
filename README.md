@@ -10,3 +10,4 @@ Todos os projetos desenvolvidos a partir do bootcamp da TakeBlip na Digital Inno
 - Váriaveis e Tipos (Atividade Prática) - JS :seven:
 - Funções (Atividade Prática) - JS :eight:
 - Coleções (Atividade Prática) - JS :nine:
+- Tratamento de Erros (Atividade Prática) :one: :zero:
