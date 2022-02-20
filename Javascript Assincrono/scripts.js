@@ -19,3 +19,5 @@ const LOAD_CAT = async () => {
 CAT_BTN.addEventListener('click', LOAD_CAT);
 
 LOAD_CAT();
+
+//should change the upper case usage in the future
