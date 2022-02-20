@@ -16,3 +16,4 @@ Todos os projetos desenvolvidos a partir do bootcamp da TakeBlip na Digital Inno
 - Javascript Assíncrono (Atividade Prática) :one: :one: :cat:
 - Orientação a Objetos (Atividade Prática) :one: :two: 💸 
 - Map, Filter, Reduce (Atividade Prática) :one: :three:
+- DOM (Atividade Prática) :one: :four: 📄
