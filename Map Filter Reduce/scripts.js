@@ -30,11 +30,7 @@ console.log(array.map(function (elemento) {
 }, triple)); 
 // Multiplica por 3 todos os elementos do arraky.
 
-console.log(array.filter(function (elemento) {
-    if (elemento % 2 == 0) {
-        return elemento;
-    }
-}));
+console.log(array.filter((elemento) => elemento % 2 === 0));
 // Retorna os elementos pares de um array.
 
 console.log(array.reduce((prev, prox) => prev + prox));
